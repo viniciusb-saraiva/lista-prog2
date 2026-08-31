@@ -1,2 +1,1 @@
-# lista-prog2
-Lista de Revisão — Programação II
+# Lista de Revisão — Programação II
