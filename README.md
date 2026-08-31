@@ -1,4 +1,12 @@
-## Orientações gerais Lista de Revisão — Programação II Prof. Rodrigo P. S. Ribeiro
+## Stack
+
+### Exercícios de Algoritmos & Estrutura de Dados (1 - 10)
+
+- Na primeira metade da lista, a linguagem de programação "C" foi utilizada para resolver os exercícios.
+
+- A razão da escolha foi pelo fato de ser a linguagem mãe de linguagens mais modernas (Java, Python, C#, etc), a qual não possui bibliotecas com estrutura de dados (lista, pilha, fila) prontas. Tal fator força o programador a pensar em como implementar as mesmas (como elas funcionam por trás dos panos), e não somente usar a abstração que bibliotecas trazem para o uso diário delas.
+
+## Orientações gerais Lista de Revisão — Programação II -Prof. Rodrigo P. S. Ribeiro-
 
 - Os exercícios podem ser desenvolvidos na linguagem de programação escolhida pelo aluno.
 
@@ -28,7 +36,7 @@ Crie um programa que receba uma lista de números inteiros e utilize funções p
 
 Cada operação deve ser implementada em uma função diferente.
 
-- 2. Validação utilizando funções
+## 2. Validação utilizando funções
 
 Desenvolva um programa de cadastro de usuário que solicite:
 
@@ -97,7 +105,6 @@ Depois, implemente uma segunda versão utilizando repetição.
 
 Compare as duas soluções e explique qual tende a ser mais eficiente para valores elevados de n.
 
-
 ## 6. Soma recursiva de uma lista
 
 Implemente uma função recursiva que receba uma lista de números e retorne a soma de todos os seus elementos.
@@ -156,7 +163,6 @@ Implemente um sistema de atendimento utilizando uma fila.
 
 Cada pessoa deverá possuir:
 
-
 - número da senha;
 
 - nome;
@@ -193,7 +199,7 @@ Para cada situação, indique qual estrutura seria mais adequada entre:
 
 Justifique cada resposta.
 
-- 11. Orientada a objetos
+## 11. Orientada a objetos
 
 Crie uma classe Produto contendo os atributos:
 
@@ -213,14 +219,13 @@ Implemente métodos para:
 
 - alterar o preço;
 
-
 - calcular o valor total armazenado daquele produto.
 
 Não permita retirar uma quantidade superior ao estoque disponível.
 
 Crie pelo menos três objetos para testar a classe.
 
-- 12. Sistema orientado a objetos
+## 12. Sistema orientado a objetos
 
 Modele um pequeno sistema escolar utilizando orientação a objetos.
 
@@ -250,7 +255,7 @@ Utilize herança para representar a relação entre Pessoa, Aluno e Professor.
 
 Crie métodos apropriados, como cálculo da média do aluno e apresentação dos dados de cada objeto.
 
-- 13. Modelagem de banco de dados
+## 13. Modelagem de banco de dados
 
 Projete um banco de dados para uma biblioteca.
 
@@ -274,7 +279,6 @@ Defina:
 
 - chaves primárias;
 
-
 - chaves estrangeiras;
 
 - relacionamentos.
@@ -283,7 +287,7 @@ Em seguida, escreva os comandos SQL necessários para criar as tabelas
 
 utilizando CREATE TABLE.
 
-- 14. INSERT e SELECT
+## 14. INSERT e SELECT
 
 Utilizando o banco de dados da biblioteca do exercício anterior:
 
@@ -327,14 +331,13 @@ Antes de executar os comandos DELETE, analise possíveis problemas relacionados 
 
 Explique o que pode acontecer ao tentar excluir um registro relacionado a outros registros.
 
-- 16. Consultas relacionando tabelas
+## 16. Consultas relacionando tabelas
 
 Utilizando o banco da biblioteca, crie consultas SQL que apresentem:
 
 - 1. nome do usuário e título do livro emprestado;
 
 - 2. todos os empréstimos realizados;
-
 
 - 3. empréstimos ainda não devolvidos;
 
@@ -344,7 +347,7 @@ Utilizando o banco da biblioteca, crie consultas SQL que apresentem:
 
 Utilize JOIN sempre que necessário.
 
-- 17. Página HTML de apresentação
+## 17. Página HTML de apresentação
 
 Crie uma página HTML para apresentar um curso técnico.
 
@@ -374,7 +377,7 @@ Utilize tags HTML semânticas sempre que possível, como:
 
 header, nav, main, section, article e footer.
 
-- 18. Estilização com CSS
+## 18. Estilização com CSS
 
 Utilizando a página criada no exercício anterior, desenvolva um arquivo CSS separado.
 
@@ -396,7 +399,6 @@ A página deverá possuir:
 
 - uso de class;
 
-
 - uso de id;
 
 - layout utilizando Flexbox ou Grid;
@@ -405,7 +407,7 @@ A página deverá possuir:
 
 Não utilize estilos diretamente nas tags HTML.
 
-- 19. Requisição HTTP e API
+## 19. Requisição HTTP e API
 
 Escolha uma API pública e desenvolva um programa que faça uma requisição HTTP utilizando o método GET.
 
@@ -449,12 +451,11 @@ Depois responda:
 
 - Qual é a diferença entre uma requisição e uma resposta HTTP?
 
-- 20. Finalizando - Sistema Web Cliente-Servidor
+## 20. Finalizando - Sistema Web Cliente-Servidor
 
 Desenvolva uma pequena aplicação web que reúna os principais conhecimentos da disciplina.
 
 Escolha um dos temas:
-
 
 - sistema de biblioteca;
 
@@ -472,11 +473,11 @@ Escolha um dos temas:
 
 - outro tema aprovado pelo professor.
 
-## Requisitos obrigatórios
+### Requisitos obrigatórios
 
 O sistema deverá possuir uma arquitetura cliente-servidor.
 
-## Cliente
+### Cliente
 
 Desenvolva uma interface utilizando:
 
@@ -488,7 +489,7 @@ Desenvolva uma interface utilizando:
 
 - tabelas ou listas para apresentação de informações.
 
-## Servidor
+### Servidor
 
 Implemente funcionalidades para:
 
@@ -502,7 +503,7 @@ Implemente funcionalidades para:
 
 - devolver respostas ao cliente.
 
-## Banco de dados
+### Banco de dados
 
 O sistema deverá permitir pelo menos as quatro operações básicas de CRUD:
 
@@ -514,16 +515,15 @@ O sistema deverá permitir pelo menos as quatro operações básicas de CRUD:
 
 - DELETE  excluir um registro.
 
-## Orientação a objetos
+### Orientação a objetos
 
 Utilize pelo menos uma classe para representar alguma entidade do sistema.
-
 
 Exemplo:
 
 Produto, Aluno, Livro, Usuário ou Tarefa.
 
-## Estruturas de dados
+### Estruturas de dados
 
 Utilize pelo menos uma estrutura entre:
 
@@ -535,7 +535,7 @@ Utilize pelo menos uma estrutura entre:
 
 A utilização deverá fazer sentido dentro do problema escolhido.
 
-## Requisições HTTP
+### Requisições HTTP
 
 A aplicação deverá utilizar pelo menos:
 
@@ -549,7 +549,7 @@ A aplicação deverá utilizar pelo menos:
 
 Podem ser utilizados PUT, PATCH e DELETE, conforme a tecnologia escolhida.
 
-## Entrega
+### Entrega
 
 O aluno deverá apresentar:
 
@@ -569,7 +569,7 @@ O aluno deverá apresentar:
 
 - 8. explicação de uma estrutura de dados utilizada.
 
-## Questões para revisão conceitual
+### Questões para revisão conceitual
 
 Durante a resolução dos exercícios, o aluno deverá conseguir explicar os seguintes conceitos:
 
@@ -578,7 +578,6 @@ Durante a resolução dos exercícios, o aluno deverá conseguir explicar os seg
 - parâmetros e valores de retorno;
 
 - caso-base em uma função recursiva;
-
 
 - diferença entre recursão e repetição;
 
