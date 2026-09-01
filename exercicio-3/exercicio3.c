@@ -88,6 +88,10 @@ int main() {
       break;
 
     case 4:
+      if (num2 == 0) {
+        printf("Divisão por 0: Indeterminado\n");
+        break;
+      }
       printf("Resultado da Divisão: %.2f\n", calcularDivisao(num1, num2));
       break;
 
