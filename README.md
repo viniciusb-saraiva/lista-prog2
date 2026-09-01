@@ -1,4 +1,4 @@
-## Stack
+## Tecnologias Utilizadas
 
 ### Exercícios de Algoritmos & Estrutura de Dados (1 - 10)
 
@@ -183,7 +183,7 @@ O sistema deverá permitir:
 
 Explique por que uma fila é mais adequada que uma pilha neste problema.
 
-- 10. Comparando lista, pilha e fila
+## 10. Comparando lista, pilha e fila
 
 Considere os seguintes problemas:
 
