@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f4f6f8;
+}
+
+header {
+  background-color: #176b3a;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section,
+article {
+  background-color: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #176b3a;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.imagem-curso {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  border-radius: 8px;
+}
+
+.lista-disciplinas {
+  padding-left: 25px;
+}
+
+.lista-disciplinas li {
+  margin-bottom: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #176b3a;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font: inherit;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #176b3a;
+}
+
+button {
+  width: fit-content;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #176b3a;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f4d2a;
+}
+
+footer {
+  padding: 20px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 20px 15px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main {
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+
+  section,
+  article {
+    padding: 18px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+  }
+}
