@@ -6,6 +6,24 @@
 
 - A razão da escolha foi pelo fato de ser a linguagem mãe de linguagens mais modernas (Java, Python, C#, etc), a qual não possui bibliotecas com estrutura de dados (lista, pilha, fila) prontas. Tal fator força o programador a pensar em como implementar as mesmas (como elas funcionam por trás dos panos), e não somente usar a abstração que bibliotecas trazem para o uso diário delas.
 
+### Programação Orientada à Objetos (11 & 12)
+
+- Nestes exercícios, a linguagem de programação "Java" foi utilizada para resolver os exercícios.
+
+- A razão da escolha foi pelo fato de ser umas das linguagens mais completa em relação ao paradigma.
+
+### Banco de Dados (13 - 16)
+
+- Nestes exercícios, foi utilizado a linguagem SQL - "SQLite".
+
+- A razão da escolha foi por ser um banco de dados relacional e em memória, sendo mais fácil de fazer testes nele.
+
+### Desenvolvimento Web - Frontend (17 - 19)
+
+- Nestes exercícios, foram utilizados HTML, CSS, JS.
+
+- A razão da escolha foi pelo fato de ser a trindade clássica no desenvolvimento frontend de sites.
+
 ## Orientações gerais Lista de Revisão — Programação II -Prof. Rodrigo P. S. Ribeiro-
 
 - Os exercícios podem ser desenvolvidos na linguagem de programação escolhida pelo aluno.
